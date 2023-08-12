@@ -6,7 +6,18 @@
 			"script": "dev",
 			"problemMatcher": [],
 			"label": "npm: dev",
-			"detail": "vite"
+			"detail": "vite",
+			"runOptions": {
+				"runOn": "folderOpen"
+			},
+			"presentation": {
+				"echo": true,
+				"reveal": "never",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
 		}
 	]
 }

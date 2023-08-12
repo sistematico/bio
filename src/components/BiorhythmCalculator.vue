@@ -22,7 +22,7 @@ const calculateBiorhythm = (daysPassed: number, cycle: number): number => {
 const birthDate = computed(() => new Date(year.value, Number(month.value) - 1, day.value))
 
 const rhythms = computed(() => {
-  if (!birthDate.value) { 
+  if (!birthDate.value) {
     console.log('null!!!')
     return null
   }
@@ -45,7 +45,6 @@ const lastDayOfMonth = computed(() => new Date(year.value, month.value, 0).getDa
 <template>
   <div class="container">
     <div class="field is-horizontal">
-      <label class="label">Data de nascimento</label>
       <div class="field-body">
         <div class="field">
           <div class="control">
@@ -54,20 +53,14 @@ const lastDayOfMonth = computed(() => new Date(year.value, month.value, 0).getDa
                 <option v-for="d in lastDayOfMonth" :key="d">{{ d }}</option>
               </select>
             </div>
-          </div>
-        </div>
-        <div class="field">
-          <div class="control">
+
             <div class="select">
               <select v-model="month">
                 <!-- <option v-for="(m, idx) in months" :key="idx">{{ idx }} - {{ m }}</option> -->
                 <option v-for="(m, idx) in months" :key="idx" :value="idx + 1">{{ m }}</option>
               </select>
             </div>
-          </div>
-        </div>
-        <div class="field">
-          <div class="control">
+
             <div class="select">
               <select v-model="year">
                 <option v-for="y in years" :key="y">{{ y }}</option>
@@ -77,11 +70,20 @@ const lastDayOfMonth = computed(() => new Date(year.value, month.value, 0).getDa
         </div>
       </div>
     </div>
-    <div v-if="rhythms">
-      <p>Físico: {{ rhythms.physical }}%</p>
-      <p>Emocional: {{ rhythms.emotional }}%</p>
-      <p>Intelectual: {{ rhythms.intellectual }}%</p>
-      <BiorhythmChart :dateOfBirth="birthDate" />
+  </div>
+
+  <div class="container">
+    <div class="field is-horizontal">
+      <div class="field-body">
+        <div class="field">
+          <div v-if="rhythms">
+            <p>Físico: {{ rhythms.physical }}%</p>
+            <p>Emocional: {{ rhythms.emotional }}%</p>
+            <p>Intelectual: {{ rhythms.intellectual }}%</p>
+            <BiorhythmChart :dateOfBirth="birthDate" />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

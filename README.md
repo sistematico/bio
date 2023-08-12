@@ -1,10 +1,8 @@
 # ❤️ [Biorhythm](https://sistematico.github.io/bio)
 
 <p align='center'>
-   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./public/heart.svg" width="300">
-      <img alt="Biorhythm" src="./public/heart-lt.svg" width="300">
-   </picture>
+   <img alt="Biorhythm" src="./public/heart-lt.svg#gh-dark-mode-only" width="300">
+   <img alt="Biorhythm" src="./public/heart.svg#gh-light-mode-only" width="300">
 </p>
 
 ### 🤖 CI/CD
