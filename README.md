@@ -1,18 +1,26 @@
-# Vue 3 + TypeScript + Vite
+# ❤️ [Biorhythm](https://sistematico.github.io/bio)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p align='center'>
+  <img src='./public/favicon/favicon.svg' alt='Biorhythm' width='300' />
+</p>
 
-## Recommended IDE Setup
+### 🤖 CI/CD
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[![CD](https://github.com/sistematico/bio/actions/workflows/pages.yml/badge.svg)](https://github.com/sistematico/bio/actions/workflows/pages.yml)
 
-## Type Support For `.vue` Imports in TS
+### 📰 Descrição
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Uma calculadora de biorritmo usando o <b>[Vite](https://vitejs.dev)</b><sup><em>(com foco na velocidade)</em></sup><br>
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### 🎉 Demonstração
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- [Github Pages](https://sistematico.github.io/bio)
+
+### 👏 Ajude
+
+Se o meu trabalho foi útil de qualquer maneira, considere doar qualquer valor através do das seguintes plataformas:
+
+[![LiberaPay](https://img.shields.io/badge/LiberaPay-gray?logo=liberapay&logoColor=white&style=flat-square)](https://liberapay.com/sistematico/donate) [![PagSeguro](https://img.shields.io/badge/PagSeguro-gray?logo=pagseguro&logoColor=white&style=flat-square)](https://pag.ae/bfxkQW) [![ko-fi](https://img.shields.io/badge/ko--fi-gray?logo=ko-fi&logoColor=white&style=flat-square)](https://ko-fi.com/K3K32RES9) [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-gray?logo=buy-me-a-coffee&logoColor=white&style=flat-square)](https://www.buymeacoffee.com/sistematico) [![Open Collective](https://img.shields.io/badge/Open_Collective-gray?logo=opencollective&logoColor=white&style=flat-square)](https://opencollective.com/sistematico) [![Patreon](https://img.shields.io/badge/Patreon-gray?logo=patreon&logoColor=white&style=flat-square)](https://patreon.com/sistematico)
+
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/sistematico?label=Github%20Sponsors)](https://github.com/sponsors/sistematico)
