@@ -1,7 +1,7 @@
 # ❤️ [Biorhythm](https://sistematico.github.io/bio)
 
 <p align='center'>
-  <img src='./public/favicon/favicon.svg' alt='Biorhythm' width='300' />
+  <img src='./public/heart.svg' alt='Biorhythm' width='300' />
 </p>
 
 ### 🤖 CI/CD
